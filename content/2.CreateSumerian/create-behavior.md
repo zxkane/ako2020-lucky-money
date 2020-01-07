@@ -64,6 +64,12 @@ weight: 22
 #### Money 
 1. Repeat the **Red Packet with Money Behavior** 3 times for the 3 money entities.
 
+#### Share button
+1. Import `share button` image  asset into project like `money`.
+1. Add `Share` entity, attach image to it
+1. Config it hidden default
+1. Create **State Machine** with action to listen `Money` clicking event to show it
+1. Create **State Machine** action to process `tap/click` event to use custom script to emit clicking event to web app
 ## Config Default Hidden
 1. Click the eye button on the left console, the corresponding entity will be disappear.
    ![](/image/WechatIMG27.png)
